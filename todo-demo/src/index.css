@@ -1,62 +1,41 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
   display: flex;
   justify-content: center;
-  font-family: Arial;
-  font-size: x-large;
-  background: #f5f5f5;
+  font-size:x-large
 }
-
-main {
-  background: white;
-  margin: 8px 0;
-  padding: 16px;
-  box-shadow: 0 2px 4px #0003, 0 25px 50px #0000001a;
-}
-
-input {
-  font-size: x-large;
-  margin: 4px;
-  color: #484848;
-  min-height: 18px;
+input{
   min-width: 18px;
-  border: 0;
+  min-height: 18px;
+  font-size: x-large;
+  border:0;
+  margin:4px;
 }
-
-button {
-  background: seagreen;
-  color: #fff;
-  font-size: large;
-  padding: 8px 16px;
-  border: 0;
-  border-radius: 4px;
+main{
+  background-color: white;
+  padding: 16px;
+  box-shadow: 0 2px 4px #0003;
 }
-
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ul{
+  list-style: none;
+  padding: 4px;
+  margin:0;
 }
-
-li {
+li{
   padding: 4px 0;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 1px solid #f5f5f5;
 }
-
-li>button {
-  color: red;
-  background-color: #f5f5f5;
+li>button{
+  color:red;
   padding: 4px 8px;
   visibility: hidden;
 }
-
-li:hover>button,
-li:focus-within>button {
+li:hover>button,li:focus-within>button{
   visibility: visible;
 }
-
-ul {
-  padding: 4px;
-  margin:0;
-  list-style: none;
+button{
+  font-size:large;
+  padding: 8px 16px;
+  margin: 4px;
 }

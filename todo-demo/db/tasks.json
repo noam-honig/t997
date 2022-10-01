@@ -11,61 +11,51 @@
   },
   {
     "id": 3,
-    "title": "Paging",
+    "title": "Paging, Sorting & Filtering",
     "completed": true
   },
   {
     "id": 4,
-    "title": "Sorting",
+    "title": "Add a task",
     "completed": true
   },
   {
     "id": 5,
-    "title": "Filter",
+    "title": "Delete",
     "completed": true
   },
   {
     "id": 6,
-    "title": "Create",
-    "completed": false
-  },
-  {
-    "id": 7,
-    "title": "Delete",
-    "completed": false
-  },
-  {
-    "id": 8,
     "title": "Update",
     "completed": false
   },
   {
-    "id": 9,
+    "id": 7,
     "title": "Validation",
     "completed": false
   },
   {
-    "id": 10,
+    "id": 8,
     "title": "Backend Methods",
     "completed": false
   },
   {
-    "id": 11,
-    "title": "Authorization",
-    "completed": false
-  },
-  {
-    "id": 12,
+    "id": 9,
     "title": "Authentication",
     "completed": false
   },
   {
-    "id": 13,
+    "id": 10,
+    "title": "Authorization",
+    "completed": false
+  },
+  {
+    "id": 11,
     "title": "Database",
     "completed": false
   },
   {
-    "id": 14,
+    "id": 12,
     "title": "Deployment",
     "completed": false
   }

@@ -12,46 +12,45 @@ const Auth: React.FC<PropsWithChildren> = ({ children }) => {
         'Content-type': 'application/json'
       },
       body: JSON.stringify({ username })
-    })
+    });
     if (result.ok) {
-      setCurrentUser(await result.json())
-      setUsername('');
+      setCurrentUser(await result.json());
+      setUsername("");
     }
-    else
-      alert(await result.json());
+    else {
+      alert(await result.json())
+    }
   }
   const signOut = async () => {
-    await fetch('/api/signOut', {
-      method: "POST"
-    });
+    await fetch('/api/signOut', { method: "POST" });
     setCurrentUser(undefined);
-  }
-
+  };
   useEffect(() => {
     fetch('/api/currentUser').then(async r => {
       setCurrentUser(await r.json());
-    })
+    });
   }, []);
 
   if (!currentUser)
-    return <main>
-      <input placeholder="try Steve or Jane"
-        value={username}
-        onChange={e => setUsername(e.target.value)}
-      />
-      <button onClick={signIn}>Sign In</button>
-    </main>
+    return <>
+      <h2>Sign In</h2>
+      <main>
+        <input value={username}
+          onChange={e => setUsername(e.target.value)}
+          placeholder="Try Steve or Jane"
+        />
+        <button onClick={signIn}>Sign In</button>
+      </main>
+    </>
   return <>
-    <header>
-      <span>
-        Hello {currentUser.name}
-      </span>
-      <button
-        onClick={signOut}>Sign Out</button>
+    <header style={{
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'center'
+    }}>
+      Hello {currentUser.name} <button>Sign Out</button>
     </header>
     {children}
   </>
-
 }
-
 export default Auth;

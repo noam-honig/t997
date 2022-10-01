@@ -1,8 +1,10 @@
 {
   "dependencies": {
-    "cookie-session": "^2.0.0"
+    "cookie-session": "^2.0.0",
+    "pg": "^8.8.0"
   },
   "devDependencies": {
-    "@types/cookie-session": "^2.0.44"
+    "@types/cookie-session": "^2.0.44",
+    "@types/pg": "^8.6.5"
   }
 }
