@@ -6,7 +6,7 @@ import path from 'path';
 
 const app = express();
 app.use(session({
-  secret: process.env['SESSION_SECRET'] && 'my secret'
+  secret: process.env['SESSION_SECRET'] || 'my secret'
 }))
 app.use(auth);
 app.use(api);
