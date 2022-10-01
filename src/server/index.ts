@@ -15,5 +15,5 @@ app.use(express.static(path.join(__dirname, '../')));
 app.get('/*', (_, res) => {
   res.send(path.join(__dirname, '../', 'index.html'));
 })
-
+console.log(process.env);
 app.listen(process.env["PORT"] || 3002, () => console.log("Started"));
