@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Task a",
+    "title": "SEtup",
     "completed": false
   },
   {
@@ -22,6 +22,51 @@
   {
     "id": 5,
     "title": "Task f",
+    "completed": false
+  },
+  {
+    "id": 6,
+    "title": "Setup",
+    "completed": false
+  },
+  {
+    "id": 7,
+    "title": "Entities",
+    "completed": false
+  },
+  {
+    "id": 8,
+    "title": "Paging, sorting & filtering",
+    "completed": false
+  },
+  {
+    "id": 9,
+    "title": "CRUD Operations",
+    "completed": false
+  },
+  {
+    "id": 10,
+    "title": "Validation",
+    "completed": false
+  },
+  {
+    "id": 11,
+    "title": "Backend Methods",
+    "completed": false
+  },
+  {
+    "id": 12,
+    "title": "Authentication",
+    "completed": false
+  },
+  {
+    "id": 13,
+    "title": "Authorizationq",
+    "completed": false
+  },
+  {
+    "id": 14,
+    "title": "Deployment",
     "completed": false
   }
 ]

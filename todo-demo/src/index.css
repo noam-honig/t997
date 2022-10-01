@@ -1,21 +1,16 @@
 body {
   display: flex;
-  margin: 0;
-  min-height: 100vh;
+  justify-content: center;
   font-family: Arial;
   font-size: x-large;
   background: #f5f5f5;
 }
-#root {
-  margin: 0 auto;
-}
-main {
-  background: #fff;
-  margin: 8px 0;
 
+main {
+  background: white;
+  margin: 8px 0;
+  padding: 16px;
   box-shadow: 0 2px 4px #0003, 0 25px 50px #0000001a;
-  /* max-width: 400px; */
-  padding: 8px;
 }
 
 input {
@@ -26,24 +21,26 @@ input {
   min-width: 18px;
   border: 0;
 }
+
 button {
   background: seagreen;
   color: #fff;
   font-size: large;
-  padding: 0.5em;
-  border:0;
-  border-radius: 5px;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 4px;
 }
 
 
-header{
-  display:flex;
+header {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 li {
   padding: 4px 0;
+  border-bottom: 1px solid #ededed;
 }
 
 li>button {
@@ -58,15 +55,8 @@ li:focus-within>button {
   visibility: visible;
 }
 
-li {
-  border-bottom: 1px solid #ededed;
-}
-
 ul {
-  padding: 0;
-  list-style-type: none;
-  margin-block-end: 0;
+  padding: 4px;
+  margin:0;
+  list-style: none;
 }
-
-
-
