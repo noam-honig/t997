@@ -34,17 +34,21 @@ const Auth: React.FC<PropsWithChildren> = ({ children }) => {
   }, []);
 
   if (!currentUser)
-    return <>
-      <h2>Sign in</h2>
+    return <main>
       <input placeholder="try Steve or Jane"
         value={username}
         onChange={e => setUsername(e.target.value)}
       />
       <button onClick={signIn}>Sign In</button>
-    </>
+    </main>
   return <>
-    Hello {currentUser.name} <button
-      onClick={signOut}>Sign Out</button>
+    <header>
+      <span>
+        Hello {currentUser.name}
+      </span>
+      <button
+        onClick={signOut}>Sign Out</button>
+    </header>
     {children}
   </>
 

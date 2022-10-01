@@ -27,11 +27,11 @@ function App() {
     setTasks(await taskRepo.find());
   };
 
-  return <main>
-    <h2>Todos </h2>
+  return <><main>
     <input value={newTaskTitle}
       onChange={e => setNewTaskTitle(e.target.value)}
       onBlur={addTask}
+      placeholder="What needs to be done?"
     />
     <ul>
       {tasks.map(task => {
@@ -74,8 +74,9 @@ function App() {
         </li>)
       })}
     </ul>
-    <button onClick={() => setAll(!tasks.find(t => t.completed))}>Toggle Completed</button>
   </main>
+    <button onClick={() => setAll(!tasks.find(t => t.completed))}>Toggle Completed</button>
+  </>
 }
 
 export default App
