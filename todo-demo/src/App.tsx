@@ -32,6 +32,10 @@ function App() {
       onChange={e => setNewTaskTitle(e.target.value)}
       onBlur={addTask}
       placeholder="What needs to be done?"
+      onKeyDown={e => {
+        if (e.key === 'Enter')
+          addTask()
+      }}
     />
     <ul>
       {tasks.map(task => {

@@ -1,57 +1,57 @@
 [
   {
     "id": 1,
-    "title": "SEtup",
-    "completed": false
+    "title": "Setup",
+    "completed": true
   },
   {
     "id": 2,
-    "title": "Task b",
-    "completed": false
+    "title": "Entities",
+    "completed": true
   },
   {
     "id": 3,
-    "title": "Task c",
-    "completed": false
+    "title": "Paging",
+    "completed": true
   },
   {
     "id": 4,
-    "title": "Task d",
-    "completed": false
+    "title": "Sorting",
+    "completed": true
   },
   {
     "id": 5,
-    "title": "Task f",
-    "completed": false
+    "title": "Filter",
+    "completed": true
   },
   {
     "id": 6,
-    "title": "Setup",
+    "title": "Create",
     "completed": false
   },
   {
     "id": 7,
-    "title": "Entities",
+    "title": "Delete",
     "completed": false
   },
   {
     "id": 8,
-    "title": "Paging, sorting & filtering",
+    "title": "Update",
     "completed": false
   },
   {
     "id": 9,
-    "title": "CRUD Operations",
-    "completed": false
-  },
-  {
-    "id": 10,
     "title": "Validation",
     "completed": false
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Backend Methods",
+    "completed": false
+  },
+  {
+    "id": 11,
+    "title": "Authorization",
     "completed": false
   },
   {
@@ -61,7 +61,7 @@
   },
   {
     "id": 13,
-    "title": "Authorizationq",
+    "title": "Database",
     "completed": false
   },
   {
